@@ -33,12 +33,13 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 +--------------------+
 6 rows in set (0.01 sec)
 ```
-
-mysql> show tables;
+```bash
+show tables;
 ERROR 1046 (3D000): No database selected
 mysql> CREATE DATABASE mysql_prep;
 Query OK, 1 row affected (0.03 sec)
-
+```
+```bash
 mysql> SHOW databases;
 +--------------------+
 | Database           |
@@ -52,7 +53,7 @@ mysql> SHOW databases;
 | sys                |
 +--------------------+
 7 rows in set (0.00 sec)
-
+```
 mysql> USE mysql_prep;
 Database changed
 mysql> show tables;
